@@ -1,5 +1,5 @@
 {
-  "name": "p7",
+  "name": "langgraph-chat-assistant",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@langchain/cerebras": "^1.0.1",
+    "@langchain/core": "^1.1.12",
+    "@langchain/langgraph": "^1.0.15",
+    "@langchain/tavily": "^1.2.0",
+    "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
